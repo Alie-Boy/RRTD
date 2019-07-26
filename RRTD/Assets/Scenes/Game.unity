@@ -1183,6 +1183,22 @@ Transform:
   m_PrefabParentObject: {fileID: 4952650460520700, guid: 11c51ee3bc2cdb247be0474bea455f3c,
     type: 2}
   m_PrefabInternal: {fileID: 998101747}
+--- !u!1 &1090699584 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1875743165968088, guid: f1c1847c273954947877e1e10142e4e4,
+    type: 2}
+  m_PrefabInternal: {fileID: 171155324}
+--- !u!114 &1090699585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1090699584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 987ececad8f149e49a6fce29f4bd5ba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1182215442
 Prefab:
   m_ObjectHideFlags: 0
@@ -1466,15 +1482,15 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
-    - target: {fileID: 1153270369334454, guid: 8a14bd648c8b0bb4d8419d777cb7f425, type: 2}
-      propertyPath: m_Name
-      value: Tower (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 114084305041878716, guid: 8a14bd648c8b0bb4d8419d777cb7f425,
         type: 2}
       propertyPath: target
       value: 
       objectReference: {fileID: 507704477}
+    - target: {fileID: 1153270369334454, guid: 8a14bd648c8b0bb4d8419d777cb7f425, type: 2}
+      propertyPath: m_Name
+      value: Tower (1)
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8a14bd648c8b0bb4d8419d777cb7f425, type: 2}
   m_IsPrefabParent: 0
